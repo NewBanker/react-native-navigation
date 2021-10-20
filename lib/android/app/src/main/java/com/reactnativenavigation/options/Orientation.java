@@ -4,7 +4,7 @@ import android.content.pm.ActivityInfo;
 import androidx.annotation.Nullable;
 
 public enum Orientation {
-    Default("default", ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED),
+    Default("default", ActivityInfo.SCREEN_ORIENTATION_NOSENSOR),
     Landscape("landscape", ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE),
     Portrait("portrait", ActivityInfo.SCREEN_ORIENTATION_PORTRAIT),
     PortraitLandscape("sensor", ActivityInfo.SCREEN_ORIENTATION_USER),
